@@ -5,6 +5,7 @@
   "main": "glow-flora-blog-backend/server.js",
   "scripts": {
     "start": "cd glow-flora-blog-backend && npm start",
+    "preinstall": "cd glow-flora-blog-backend && npm install",
     "install-backend": "cd glow-flora-blog-backend && npm install",
     "install-frontend": "cd glow-flora-blog-frontend && npm install",
     "install-all": "npm run install-backend && npm run install-frontend",
