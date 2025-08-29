@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: glow-flora-blog
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: .
+    envVars:
+      - key: NODE_ENV
+        value: production
