@@ -2,7 +2,7 @@ services:
   - type: web
     name: glow-flora-blog
     env: node
-    buildCommand: npm install
+    buildCommand: cd glow-flora-blog-frontend && npm install && npm run build
     startCommand: npm start
     rootDir: .
     envVars:

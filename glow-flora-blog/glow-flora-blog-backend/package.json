@@ -1,16 +1,15 @@
 {
   "name": "glow-flora-blog-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend server for Glow Flora Blog",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "react-scripts build",
     "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["backend", "express", "blog"],
+  "author": "Jameera",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
