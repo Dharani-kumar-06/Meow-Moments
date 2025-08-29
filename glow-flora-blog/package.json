@@ -4,7 +4,10 @@
   "description": "A full-stack blog application with React frontend and Node.js backend",
   "main": "glow-flora-blog-backend/server.js",
   "scripts": {
-    "start": "cd glow-flora-blog-backend && npm start"
+    "start": "cd glow-flora-blog-backend && npm start",
+    "build": "cd glow-flora-blog-frontend && npm run build",
+    "install:frontend": "cd glow-flora-blog-frontend && npm install",
+    "install:backend": "cd glow-flora-blog-backend && npm install"
   },
   "keywords": ["blog", "react", "nodejs", "fullstack"],
   "author": "Jameera",
