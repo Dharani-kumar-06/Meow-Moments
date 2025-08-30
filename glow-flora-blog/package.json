@@ -9,7 +9,15 @@
     "install:frontend": "cd glow-flora-blog-frontend && npm install",
     "install:backend": "cd glow-flora-blog-backend && npm install"
   },
-  "keywords": ["blog", "react", "nodejs", "fullstack"],
+  "keywords": [
+    "blog",
+    "react",
+    "nodejs",
+    "fullstack"
+  ],
   "author": "Jameera",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.18.0"
+  }
 }
