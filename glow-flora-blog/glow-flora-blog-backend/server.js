@@ -74,7 +74,7 @@ const Moment = mongoose.model('Moment', momentSchema);
 
 // --- Routes ---
 app.get('/', (req, res) => {
-  res.send('🌺 Glow Flora Blog Backend Running');
+  res.send('🌺 Glow Flora Backend Running');
 });
 
 // Create moment
