@@ -133,6 +133,12 @@ app.delete("/moments/:id", async (req, res) => {
   }
 });
 
+// New welcome endpoint
+app.get('/welcome', (req, res) => {
+  console.log(`Request: ${req.method} ${req.path}`);
+  res.json({ message: 'Welcome to the Meow Moments API!' });
+});
+
 // --- Serve frontend in production ---
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "meow-moments-frontend", "build")));
